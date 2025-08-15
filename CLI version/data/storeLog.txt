@@ -1,0 +1,47 @@
+[01-08-2025 18:57:25] You: Rock | Computer: rock | Result: =>It's a Tie.. 🟰
+[01-08-2025 18:57:32] You: rock | Computer: rock | Result: =>It's a Tie.. 🟰
+[01-08-2025 18:57:36] You: paper | Computer: rock | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:57:43] You: paper | Computer: paper | Result: =>It's a Tie.. 🟰
+[01-08-2025 18:57:47] You: rock | Computer: rock | Result: =>It's a Tie.. 🟰
+[01-08-2025 18:57:53] You: scissors | Computer: scissors | Result: =>It's a Tie.. 🟰
+[01-08-2025 18:57:59] You: rock | Computer: scissors | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:58:13] You: quit | Computer: N/A | Result: Game Ended
+----------------------------------------
+
+[01-08-2025 18:58:13] You: N/A | Computer: N/A | Result: Game Session Ended
+----------------------------------------
+
+[01-08-2025 18:59:19] You: rock | Computer: scissors | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:31] You: scissors | Computer: paper | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:35] You: rock | Computer: scissors | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:39] You: paper | Computer: rock | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:46] You: scissors | Computer: paper | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:50] You: paper | Computer: rock | Result: =>Yay! 🎉 you Win!
+[01-08-2025 18:59:50] You: Early terminate | Computer: Early terminate | Result: wins
+[01-08-2025 18:59:50] You: N/A | Computer: N/A | Result: Early Victory Achieved..
+----------------------------------------
+
+[01-08-2025 18:59:50] You: N/A | Computer: N/A | Result: Game Session Ended
+----------------------------------------
+
+[01-08-2025 19:43:58] You: rock | Computer: paper | Result: =>You Lose!😣
+[01-08-2025 19:44:03] You: paper | Computer: paper | Result: =>It's a Tie.. 🟰
+[01-08-2025 19:44:07] You: rock | Computer: paper | Result: =>You Lose!😣
+[01-08-2025 19:44:13] You: paper | Computer: paper | Result: =>It's a Tie.. 🟰
+[01-08-2025 19:44:17] You: scissors | Computer: paper | Result: =>Yay! 🎉 you Win!
+[01-08-2025 19:44:22] You: rock | Computer: paper | Result: =>You Lose!😣
+[01-08-2025 19:44:28] You: scissors | Computer: paper | Result: =>Yay! 🎉 you Win!
+[01-08-2025 19:44:28] You: N/A | Computer: N/A | Result: Game Session Ended
+----------------------------------------
+
+[01-08-2025 19:44:46] You: scissors | Computer: rock | Result: =>You Lose!😣
+[01-08-2025 19:44:52] You: rock | Computer: rock | Result: =>It's a Tie.. 🟰
+[01-08-2025 19:44:57] You: scissors | Computer: rock | Result: =>You Lose!😣
+[01-08-2025 19:45:01] You: paper | Computer: rock | Result: =>Yay! 🎉 you Win!
+[01-08-2025 19:45:05] You: paper | Computer: rock | Result: =>Yay! 🎉 you Win!
+[01-08-2025 19:45:09] You: paper | Computer: scissors | Result: =>You Lose!😣
+[01-08-2025 19:45:14] You: rock | Computer: scissors | Result: =>Yay! 🎉 you Win!
+[01-08-2025 19:45:14] You: N/A | Computer: N/A | Result: Game Session Ended
+----------------------------------------
+
+
