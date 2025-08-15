@@ -1,117 +1,151 @@
 # rockPaperScissors\_WithAdaptiveAI 🤺🤻🤼
 
-A command-line based Rock-Paper-Scissors game in Python, powered with adaptive AI, colorful output, persistent scoring, and future plans for GUI and analytics.
+A **Python-powered Rock-Paper-Scissors game** with both **Command-Line** and **Tkinter GUI** versions, featuring **adaptive AI**, colorful output, persistent scoring, and match history tracking.
 
 ---
 
 ## 🌊 Description
 
-This isn't your average Rock-Paper-Scissors game. Built from scratch using modular Python, this game tracks user behavior, adapts to their choices using simple prediction logic, and adds layers of professional features like:
+This isn't your average Rock-Paper-Scissors.
+It’s a **learning, adapting AI opponent** built from scratch, evolving from a simple CLI game to a **full-featured GUI app**.
 
-* Score tracking with early termination logic
-* AI that learns your common choices
-* Stylish colored outputs using `colorama`
-* Match logs saved in `.txt`
-* Plans for `.json`, `.csv`, GUI, and charts
+**Highlights:**
+
+* CLI mode for speed and retro charm
+* GUI mode with a clean Tkinter interface
+* AI that tracks your habits and counters your most-used moves
+* Match history viewable in-app (GUI)
+* Screenshot feature for GUI game windows
+* Persistent data storage (`.csv`) for analysis
+* Modular, reusable code structure
 
 ---
 
 ## 🎓 Learning Journey
 
-This project was built step by step like a real-world software application. Each phase focused on clean structure, reusability, and new learning goals.
+This project was developed in **phases**, just like real-world software.
 
-### ✅ Phase 1: Basic CLI Game
+### ✅ Phase 1 → 5: CLI Version
 
-* One file with loop, user input, random computer choice
+* Started as a single-file basic loop
+* Modularized into multiple files: `main.py`, `gameLogic.py`, etc.
+* Added:
 
-### ✅ Phase 2: Modular Code Structure
+  * Scoreboard with early termination
+  * Colored terminal output via `colorama`
+  * Match logs in `.txt`
+  * Best-of-N rounds
+  * AI brain (`aiBrain.py`) using `defaultdict`
 
-* Split into functions: input, computer choice, logic, output
+### ✅ Phase 6: Adaptive AI
 
-### ✅ Phase 3: Multi-file Project Structure
+* Tracks your move history
+* Predicts & counters your most frequent move
+* Adjusts if losing streak detected
 
-* Separated files: `main.py`, `gameLogic.py`, `userInput.py`, etc.
+### ✅ Phase 7: GUI Version
 
-### ✅ Phase 4: Enhancements
+* Built with Tkinter (`gui.py`)
+* Clickable buttons for moves
+* Live score updates and results display
+* Integrated `aiBrain.py` logic
+* **Extras**:
 
-* **4.1:** Scoreboard
-* **4.2:** Colored output with `colorama`
-* **4.3:** Logging results to `.txt`
-* **4.4:** Best-of-N Rounds with early termination
-
-### ✅ Phase 5: Refactoring + Edge Case Handling
-
-* Invalid inputs
-* Quitting anytime
-* Score-based early game end
-
-### ✅ Phase 6: Adding AI
-
-* **6.1:** AI Brain: tracks user history using `defaultdict`
-* Chooses counter-move based on highest picked option
-* Printed move distribution to inform users
+  * Menu bar with “Take Screenshot” option
+  * Match History viewer (scrollable table from CSV)
+  * Fully camelCase code style for GUI
 
 ---
 
-## 🚀 Future Plans
+## 🚀 Features
 
-### 📂 Phase 6.x - Data Features
+**CLI Version**
 
-* **6.2:** JSON Save/Load Scoreboard
-* **6.3:** CSV Export of logs
+* Quick and lightweight
+* Terminal colors
+* Logs match results
+* Same adaptive AI as GUI
 
-### 🎨 Phase 7 - GUI Version
+**GUI Version**
 
-* Tkinter / PyQt-based version of the game
+* Interactive buttons for moves
+* Score & result display in real time
+* Match history window with scrollbar
+* Screenshot saving of the game window
+* AI adjusts strategy mid-game
 
-### 🌐 Phase 8 - Deployment
+---
 
-* Convert to `.exe` using `pyinstaller`
-* Add CLI argument support (eg: `--rounds 5`)
+## 📂 Project Structure
 
-### 📊 Phase 9 - Visual Analytics
-
-* Graph wins/losses over time with `matplotlib`
-* Win-ratio dashboard from `.log` file
-
-### 🏆 Phase 10 - Polish and Publish
-
-* Upload final version to GitHub with release tags
-* Demo video/GIFs for README
-* Write a Medium article or LinkedIn post
+```
+rockPaperScissors_WithAdaptiveAI/
+│
+├── aiBrain.py          # AI logic
+├── choices.py          # Available moves
+├── gui.py              # Tkinter GUI implementation
+├── main.py             # Entry point (choose CLI or GUI)
+├── utils/
+│   └── colorUtils.py   # Color text for CLI
+├── matchHistory.csv   # Saved results
+└── README.md
+```
 
 ---
 
 ## 📚 Tech Stack
 
-* Python 3.x
-* `colorama` for colorized terminal output
-* `random` and `collections.defaultdict` for AI logic
-* `os`, `datetime` for file handling
+* **Python 3.x**
+* `tkinter` – GUI
+* `colorama` – CLI colors
+* `PIL` (Pillow) – Screenshots
+* `csv` – Match history storage
+* `collections.defaultdict` – AI tracking
+* `random` – AI choice randomness (using it at start and when the user is loosing)
 
 ---
 
 ## 🤖 How to Run
 
-```bash
-# Clone the repo
-https://github.com/your-username/rockPaperScissors_WithAdaptiveAI.git
-cd rockPaperScissors_WithAdaptiveAI
+### CLI Mode
 
-# Run the game
-python main.py
+```bash
+python main.py cli
 ```
+
+### GUI Mode
+
+```bash
+python main.py gui
+```
+
+**In GUI mode**:
+
+* Use buttons to play
+* View match history from menu
+* Take screenshots directly from the menu
+
+---
+
+## 📊 Future Plans
+
+* JSON save/load
+* Graph analytics with `matplotlib`
+* Deploy as `.exe` with `pyinstaller`
+* Online multiplayer version
 
 ---
 
 ## 📢 Credits
 
-Made with excitement, late nights, and passion for learning real-world Python project building by **Souro Dip Chatterjee**.
+Made with excitement, late nights, and passion for real-world Python project building by **Souro Dip Chatterjee**.
 
-Thanks to Google, ChatGPT as my coding buddy, code reviewer, and Guide. ✨
+Special thanks to Google and ChatGPT — my coding buddy, reviewer, and guide. ✨
 
 ---
 
 ## 🌟 License
 
-MIT License. Use it, modify it, show it off!
+MIT License — use, modify, and share freely.
+
+
